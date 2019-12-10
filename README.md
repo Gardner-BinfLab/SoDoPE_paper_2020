@@ -5,6 +5,6 @@
 
 
 ## How to?
-Run these notebooks in the following order:
+Run these jupyter notebooks in the following order:
 - Data_cleanup
-- Dataset reqired for cross-validation can be found in result/cross\_val
+- The dataset reqired for the cross-validation step can be found in result/cross\_val
