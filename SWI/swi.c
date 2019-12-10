@@ -34,8 +34,8 @@ default :  return 0; break; //unknown residues
 }
 
 double prob(double x){
-	double a = 81.1496;
-	double b = -62.8379;
+	float a = 81.1496;
+	float b = -62.8379;
 	double p = 1/(1+ exp(-(a*x + b)));
 	return p;
 
