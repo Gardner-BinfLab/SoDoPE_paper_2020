@@ -33,7 +33,7 @@ default :  return 0; break; //unknown residues
 
 }
 
-double prob( double x){
+double prob(double x){
 	double a = 81.1496;
 	double b = -62.8379;
 	double p = 1/(1+ exp(-(a*x + b)));
@@ -48,7 +48,7 @@ int main (int argc, char *argv[]) {
 	ssize_t read;
 
 	if ((argc > 2) || (argc == 1)){
-		printf("Usage: ./swi <sequence.fa>\n");
+		printf("Usage: ./swi <protein_sequence.fa>\n");
 		exit(EXIT_FAILURE);
 	}
 
