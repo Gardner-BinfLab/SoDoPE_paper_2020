@@ -8,34 +8,34 @@
 double weight(char c){
 	switch(c){
 
-case 'A' : return 0.8356956599678218; break;
-case 'C' : return 0.5219207324456876; break;
-case 'E' : return 0.9868660417547442; break;
-case 'D' : return 0.9075983546378998; break;
-case 'G' : return 0.8003827946673535; break;
-case 'F' : return 0.5821934635876957; break;
-case 'I' : return 0.6790449304566072; break;
-case 'H' : return 0.8963977585570367; break;
-case 'K' : return 0.9259165090012061; break;
-case 'M' : return 0.6299964100098959; break;
-case 'L' : return 0.6546922237065839; break;
-case 'N' : return 0.8604957042204235; break;
-case 'Q' : return 0.7895650031998229; break;
-case 'P' : return 0.822104415564934; break;
-case 'S' : return 0.7442464390120463; break;
-case 'R' : return 0.771055152304471; break;
-case 'T' : return 0.8098670971949234; break;
-case 'W' : return 0.6386931894494416; break;
-case 'V' : return 0.7344952876686051; break;
-case 'Y' : return 0.6125581495225544; break;
+case 'A' : return 0.8356471476582918; break;
+case 'C' : return 0.5208088354857734; break;
+case 'E' : return 0.9876987431418378; break;
+case 'D' : return 0.9079044671339564; break;
+case 'G' : return 0.7997168496420723; break;
+case 'F' : return 0.5849790194237692; break;
+case 'I' : return 0.6784124413866582; break;
+case 'H' : return 0.8947913996466419; break;
+case 'K' : return 0.9267104557513497; break;
+case 'M' : return 0.6296623675420369; break;
+case 'L' : return 0.6554221515081433; break;
+case 'N' : return 0.8597433107431216; break;
+case 'Q' : return 0.789434648348208; break;
+case 'P' : return 0.8235328714705341; break;
+case 'S' : return 0.7440908318492778; break;
+case 'R' : return 0.7712466317693457; break;
+case 'T' : return 0.8096922697856334; break;
+case 'W' : return 0.6374678690957594; break;
+case 'V' : return 0.7357837119163659; break;
+case 'Y' : return 0.6112801822947587; break;
 default :  return 0; break; //unknown residues
 }
 
 }
 
 double prob(double x){
-	float a = 81.1496;
-	float b = -62.8379;
+	float a = 81.0581;
+	float b = -62.7775;
 	double p = 1/(1+ exp(-(a*x + b)));
 	return p;
 
