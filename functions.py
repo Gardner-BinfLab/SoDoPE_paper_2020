@@ -229,5 +229,5 @@ def cost_func(f, df):
     fpr, tpr, _ = roc_curve(labels, preds)
     roc_auc = auc(fpr, tpr)
     if roc_auc < 0.5:
-        roc_auc = 1-0.5
+        roc_auc = 1-roc_auc
     return -roc_auc
