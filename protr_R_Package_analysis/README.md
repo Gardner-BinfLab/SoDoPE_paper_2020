@@ -1,1 +1,1 @@
-Relate to Supplementary Fig S2.
+Analysis related to Supplementary Fig S2.
