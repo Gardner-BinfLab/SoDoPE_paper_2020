@@ -1,1 +1,1 @@
-Fig 4B
+Relate to Fig 4B.
