@@ -1,1 +1,1 @@
-Data to reproduce Supplementary Fig S1
+Supplementary Fig S1
