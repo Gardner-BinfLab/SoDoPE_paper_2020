@@ -1,7 +1,7 @@
 ### Solubility prediction using SWI
-Either the C version or Python version can be used. C version is a bit faster but rather limited. Python version is flexible as compared to C but maybe slightly slower. For comparision: C version took 5 secs whereas Python version took ~30 secs on i7 to calculate solubility of all reviewed sequences from UniProt (N=560,434).
+Either the C version or Python version can be used. C version is a bit faster but rather limited. Python version is flexible as compared to C but maybe slightly slower. For comparision: C version took 5 secs whereas Python version took ~30 secs on an i7 to calculate the solubility of all reviewed sequences from UniProt (N=560,434).
 
-#### C
+#### C (swi.c)
 Compile and run the program using the following commands. The input file must be a fasta file with an amino acid sequence(s).
 ```console
 gcc swi.c -lm -o swi -std=gnu99
@@ -17,7 +17,7 @@ MSPSNQSAEGLPQEAANRSLNATGTPEAWDPGTLQALKISLAVVLSIITVATVLSNTFVLTTILLTRKLHTPANYLIGSL
 ```
 The results can be saved by using `>`. For eg: `./swi sequences.fa > results.csv`
 
-#### Python
+#### Python (swi.py)
 Requirements
 
 - Python 3.6+
